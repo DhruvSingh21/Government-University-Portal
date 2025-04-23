@@ -313,7 +313,6 @@
     </footer>
 
     <script>
-        // Mobile menu toggle
         const mobileMenuButton = document.getElementById('mobile-menu-button');
         const mobileMenu = document.getElementById('mobile-menu');
         
@@ -335,10 +334,8 @@
                         behavior: 'smooth'
                     });
                     
-                    // Close mobile menu if open
                     mobileMenu.classList.add('hidden');
-                    
-                    // Update active nav link
+                    0
                     document.querySelectorAll('.nav-link').forEach(link => {
                         link.classList.remove('active');
                     });
